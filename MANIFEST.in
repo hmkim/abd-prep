@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include pyproject.toml
+recursive-include tests *.py *.pdb *.fasta *.csv
+recursive-include docs *.md
+global-exclude __pycache__ *.py[cod]
